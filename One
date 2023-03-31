@@ -1,0 +1,33 @@
+public class one {
+    public static void main(String[] args) {
+    Employee a = new Employee();
+a.setName ("Lovan");
+a.setNip(1);
+a.hitung(9, "bujang");
+a.hitung ();
+a.display();
+
+Boss b = new Boss ();
+
+b.setName ("sena");
+b.setNip (2);
+b.hitung(7,"bujang");
+b.hitung ();
+b.display ();
+        
+Manager c = new Manager ();
+c.setName ("ribut");
+c.setNip(3);
+c.hitung (8,"menikah");
+c.hitung ();
+c.display ();
+
+CS d = new CS();
+d.setName ("ibani");
+d.setNip(4);
+d.hitung (8,"menikah");
+d.hitung ();
+d.display ();
+
+}
+}
